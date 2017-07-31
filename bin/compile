@@ -150,7 +150,7 @@ export GOOGLE_CHROME_BIN=$BIN
 export GOOGLE_CHROME_SHIM=$SHIM
 EOF
 
-echo "$BUILD_DIR/.profile.d/000_apt.sh" > $HOME/.profiles
-echo "$BUILD_DIR/.profile.d/010_google-chrome.sh" > $HOME/.profiles
+echo "$BUILD_DIR/.profile.d/000_apt.sh" >> /tmp/salsita/.profiles
+echo "$BUILD_DIR/.profile.d/010_google-chrome.sh" >> /tmp/salsita/.profiles
 
 topic "Google done"
